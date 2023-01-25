@@ -21,7 +21,7 @@ Ce projet utilisera Html, CSS, Vanilla Javascript.
  
  <br>
  <p align="center">
- Essayez " Online Scoreur Code Editor" : https://100sue.github.io/dev-QR-code-generator/
+ Essayez " Online Scoreur Code Editor" : https://100sue.github.io/Online-code-editot/
  </p>
 
 
