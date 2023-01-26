@@ -14,13 +14,12 @@ Ce projet utilisera Html, CSS, Vanilla Javascript.
 
 <br>
 
+<p align="center">
+<img src= "https://user-images.githubusercontent.com/90606431/214796525-42eee1a0-85be-439e-bd7a-1752197633d0.png" />
+</p>
 
  <br>
  <p align="center">
  Essayez " Online Scoreur Code Editor" : https://100sue.github.io/Online-Code-editot/
  </p>
-
-<p align="center">
-<img src= "https://user-images.githubusercontent.com/90606431/214796525-42eee1a0-85be-439e-bd7a-1752197633d0.png" />
-</p>
  
