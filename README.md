@@ -16,7 +16,7 @@ Ce projet utilisera Html, CSS, Vanilla Javascript.
 
  <br>
  <p align="center">
- Essayez " Online Scoreur Code Editor" : https://100sue.github.io/Online-code-editot/
+ Essayez " Online Scoreur Code Editor" : https://100sue.github.io/Online-Code-editot/
  </p>
 
 
