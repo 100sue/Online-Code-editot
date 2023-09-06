@@ -91,18 +91,4 @@ Tant qu'a faire autant construire ces propres outils !!! :)
 
 
 
-
-
-
-
-
-
-
-
-
-
- <br>
- <p align="center">
- Essayez " Online Scoreur Code Editor" : https://100sue.github.io/Online-Code-editot/
- </p>
  
