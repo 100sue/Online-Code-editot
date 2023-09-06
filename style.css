@@ -1,55 +1,157 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* ------------ Scroll bar : new design ------------ */
+::-webkit-scrollbar {
+  width: 13px;
+  background: #c1ceff;
+}
+::-webkit-scrollbar-thumb {
+  background: #282f4e;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0004ff;
+}
+/* ------ adapted for firefox ------ */
+
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: #359cf0 #aef1ee;
+    scrollbar-width: thin;
+  }
 }
 
 body {
-    background: #30353b;
-    color: #fff;
+  background: #30353b;
+  color: #fff;
 }
-
+h1 {
+  font-size: 40px;
+  text-align: center;
+  color: rgb(14, 14, 226);
+  letter-spacing: 1px;
+}
 .container {
-    width: 100%;
-    height: 100vh;
-    padding: 20px;
-    display: flex;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
 }
 
-.left, .right {
-    flex-basis: 50%;
-    padding: 10px;
+.left,
+.right {
+  flex-basis: 50%;
+  padding: 10px;
 }
 
 textarea {
-    width: 100%;
-    height: 28%;
-    background: #1f1f1f;
-    color: #fff;
-    padding: 10px 20px;
-    border: 0;
-    outline: 0;
-    font-size: 18px;
+  width: 100%;
+  height: 28%;
+  background: #1f1f1f;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  font-size: 18px;
 }
 iframe {
-    width: 100%;
-    height: 95%;
-    background: #fff;
-    border: 0;
-    outline: 0;
+  width: 100%;
+  height: 95%;
+  background: #fff;
+  border: 0;
+  outline: 0;
 }
 
 label {
-    display: flex;
-    align-items: center;
-    background: #000;
-    height: 30px;
+  display: flex;
+  align-items: center;
+  background: #000;
+  height: 30px;
+}
+.html {
+  color: rgb(216, 89, 4);
+}
+.css {
+  color: rgb(19, 19, 238);
+}
+.java {
+  color: rgb(192, 206, 4);
 }
 
 label ion-icon {
-    margin-right: 10px;
-    margin-left: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* ------ social  ------ */
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 80px;
+}
+
+.social ul {
+  position: relative;
+  display: flex;
+  z-index: 2;
+}
+
+.social ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px;
+}
+.social ul li a {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1c11c0;
+  font-size: 2em;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 5px 45px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(2px);
+  transition: 0.6s;
+  overflow: hidden;
+}
+
+.social ul li a:hover {
+  transform: translateY(-20px);
+  color: #fff;
+}
+
+.social ul li a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: skewX(45deg) translateX(150px);
+  transition: 0.5s;
+}
+
+.social ul li a:hover::before {
+  transform: skewX(45deg) translateX(-150px);
 }
